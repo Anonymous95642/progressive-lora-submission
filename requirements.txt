@@ -1,0 +1,44 @@
+"""
+项目依赖包列表
+安装命令: pip install -r requirements.txt
+"""
+
+# 核心深度学习框架
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.30.0
+
+# 图像处理
+Pillow>=9.0.0
+
+# 数据处理
+numpy>=1.21.0
+tqdm>=4.64.0
+datasets>=2.10.0
+
+# 训练加速
+accelerate>=0.20.0
+
+# COCO评估
+pycocotools>=2.0.6
+pycocoevalcap>=1.2
+
+# 参数高效训练 (可选)
+peft>=0.4.0
+bitsandbytes>=0.39.0
+
+# 配置文件处理
+PyYAML>=6.0
+
+# 科学计算
+scipy>=1.9.0
+
+# 可视化 (可选)
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# JSON处理
+ujson>=5.0.0
+
+# 数据分析
+pandas>=1.5.0
